@@ -14,7 +14,7 @@ public class BookService {
     @Autowired
     private BookRepository bookRepository;
  
-    public List<Book> list() {
+    public Iterable<Book> list() {
         return bookRepository.findAll();
     }
 }

@@ -18,8 +18,8 @@ public class BookController {
 	private BookService bookService;
 
 	@RequestMapping(value = "", method = RequestMethod.GET)
-	public List<Book> getBooks() {
-		List<Book> books = bookService.list();
+	public Iterable<Book> getBooks() {
+		Iterable<Book> books = bookService.list();
 		for (Book book : books) {
 			System.out.println(book.getName());
 		}
