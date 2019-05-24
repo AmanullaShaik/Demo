@@ -28,3 +28,16 @@ HELP.md
 
 ### VS Code ###
 .vscode/
+
+
+# others
+build/
+out/
+logs/
+local/
+data/elasticsearch/
+.DS_Store
+.gitignore.swp
+.gitignore
+.gradle/
+*.class
